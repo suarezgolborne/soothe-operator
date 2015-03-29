@@ -1,0 +1,22 @@
+{
+  "name": "babysooth",
+  "version": "0.0.0",
+  "main": "/scripts/index",
+  "scripts": {
+      "start": "npm run serve | npm run dev",
+ "serve": "./node_modules/.bin/http-server -p 8080",
+ "dev": "webpack-dev-server --progress --colors --port 8090"
+  },
+  "author": "ssg",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^0.13.1"
+  },
+  "devDependencies": {
+    "http-server": "^0.8.0",
+    "jsx-loader": "^0.12.2",
+    "react-hot-loader": "^1.2.4",
+    "webpack": "^1.7.3",
+    "webpack-dev-server": "^1.7.0"
+  }
+}

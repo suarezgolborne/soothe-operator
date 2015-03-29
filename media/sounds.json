@@ -1,0 +1,8 @@
+[
+{"title": "washingmachine", "id":"0", "bgimage": "'./media/diskmaskin2.png'", "sound": "./media/washingmachine.mp3"},
+{"title": "waves", "id":"1","bgimage": "'./media/waves.png'", "sound": "./media/waves.mp3"},
+{"title": "factory", "id":"2","bgimage": "'./media/gears.png'", "sound": "./media/factory.mp3"},
+{"title": "tractor", "id":"3", "bgimage": "'./media/traktor.png'", "sound": "./media/tractor.mp3"},
+{"title": "autobahn", "id":"4", "bgimage": "'./media/autobahn.png'", "sound": "./media/autobahn.mp3"},
+{"title": "train", "id":"5", "bgimage": "'./media/train.png'", "sound": "./media/train.mp3"}
+]
