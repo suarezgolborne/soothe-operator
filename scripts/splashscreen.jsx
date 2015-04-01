@@ -9,7 +9,8 @@ module.exports = React.createClass({
     displayName: 'SplashScreen',
     unlock: function() {
         console.log("unlock");
-        $(".splash").css("display", "none");
+      //  $(".splash").css("display", "none");
+        $(".splash").fadeOut();
 
     	   if(this.unlocked)
     		 return;
@@ -40,7 +41,7 @@ module.exports = React.createClass({
         return(
 
         <div className="splash" onClick={this.clickHandler}>
-          <div className="header">Soothe Operator</div>
+          <div className="header title">Soothe Operator</div>
           <div className="header start">Start</div>
         </div>
 );
